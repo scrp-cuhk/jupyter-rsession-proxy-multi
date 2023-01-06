@@ -18,7 +18,6 @@ setuptools.setup(
     ],
     entry_points={
         'jupyter_serverproxy_servers': [
-            'rstudio_mkl_2022 = jupyter_rsession_proxy_multi:setup_rserver_mkl',
             'rstudio_mro_4 = jupyter_rsession_proxy_multi:setup_rserver_mro'
         ]
     }
