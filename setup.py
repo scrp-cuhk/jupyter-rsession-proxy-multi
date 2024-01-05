@@ -19,7 +19,6 @@ setuptools.setup(
     entry_points={
         'jupyter_serverproxy_servers': [
             'rstudio_conda = jupyter_rsession_proxy_multi:setup_rserver_conda',
-            'rstudio_mro_4 = jupyter_rsession_proxy_multi:setup_rserver_mro'
         ]
     }
 )
